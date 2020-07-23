@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<page-meta>
+  <header-component />
+  <view class="main">
+    <view class="main-box">
+      <view class="back-color"></view>
+      <view class="content">
+        <view class="content-box">
+          <menu-component />
+          <swiper-component banner='{{banner}}' />
+        </view>
+      </view>
+    </view>
+  </view>
+</page-meta>
+

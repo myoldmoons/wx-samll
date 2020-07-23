@@ -1,0 +1,10 @@
+/* feature/index/swiper/index.wxss */
+swiper{
+  height:200rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+swiper-item{
+  background-color: aqua;
+  font-size: 28rpx;
+}

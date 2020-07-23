@@ -1,0 +1,13 @@
+<!--feature/index/swiper/index.wxml-->
+
+  <view class="swiper">
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}" circular="{{true}}" vertical="{{false}}">
+      <block wx:for="{{banner}}" wx:key="*this">
+        <swiper-item>
+          <view class="swiper-item">
+            {{item}}
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>

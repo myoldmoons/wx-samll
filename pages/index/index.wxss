@@ -1,0 +1,28 @@
+
+.main-box{
+  position: relative;
+}
+.back-color{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 200rpx;
+  z-index: 1;
+  background: linear-gradient(#2894FF,#ffffff);
+}
+.content{
+  padding:20rpx;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
+  left: 0;
+  z-index: 2;
+}
+.content-box{
+  background-color: #ffffff;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  height: 400rpx;
+}

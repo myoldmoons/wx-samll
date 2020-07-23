@@ -1,0 +1,36 @@
+/* feature/index/header/index.wxss */
+.tabbar{
+  position: fixed;
+  width: 100%;
+  top: 0rpx;
+  left: 0;
+  background-color: #2894FF;
+  padding-bottom:10px;
+}
+.header{
+  display: flex;
+}
+.header .weather{
+  width: 120rpx;
+  text-align: center;
+  font-size: 26rpx;
+}
+.header .search{
+  width:100%;
+  position: relative;
+}
+.header .search .search_icon{
+  position: absolute;
+  width: 36rpx;
+  height: 36rpx;
+  top: 50%;
+  left: 20rpx;
+  transform: translateY(-50%);
+}
+.header .search .input{
+  background-color: #f6f6f6;
+  border-radius: 50rpx;
+  color: #999;
+  font-size: 24rpx;
+  padding-left: 70rpx;
+}

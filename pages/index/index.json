@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "header-component":"/feature/index/header",
+    "swiper-component":"/feature/index/swiper",
+    "menu-component":"/feature/index/menu"
+  },
+  "navigationStyle":"custom"
+}

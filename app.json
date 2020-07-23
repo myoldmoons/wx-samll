@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#515151",
+    "selectedColor": "#0080FF",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "Home",
+      "iconPath": "static/Icon/home.png",
+      "selectedIconPath": "static/Icon/home-active.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "Code",
+      "iconPath": "static/Icon/code.png",
+      "selectedIconPath": "static/Icon/code-active.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "Mine",
+      "iconPath": "static/Icon/mine.png",
+      "selectedIconPath": "static/Icon/mine-active.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
