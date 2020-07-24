@@ -8,7 +8,20 @@
   text-align: center;
 }
 .menu-icon{
-  width: 60%;
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 auto;
+  background-color: #FF6347;
+  border-radius: 50%;
+  position: relative;
+}
+.menu-icon .before{
+  position: absolute;
+  width: 60rpx;
+  height: 60rpx;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 .menu-text{
   font-size: 32rpx;

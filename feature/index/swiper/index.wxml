@@ -5,7 +5,6 @@
       <block wx:for="{{banner}}" wx:key="*this">
         <swiper-item>
           <view class="swiper-item">
-            {{item}}
           </view>
         </swiper-item>
       </block>

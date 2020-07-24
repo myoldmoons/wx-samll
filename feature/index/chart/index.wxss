@@ -1,0 +1,7 @@
+/* feature/index/chart/index.wxss */
+.container{
+  padding: 20rpx;
+  border: 1rpx dashed #e5e5e5;
+  height:400rpx;
+  margin-top: 20rpx;
+}

@@ -24,5 +24,4 @@
   background-color: #ffffff;
   padding: 20rpx;
   border-radius: 20rpx;
-  height: 400rpx;
 }

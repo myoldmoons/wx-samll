@@ -7,8 +7,9 @@
       <view class="content">
         <view class="content-box">
           <menu-component />
-          <swiper-component banner='{{banner}}' />
         </view>
+        <swiper-component banner='{{banner}}' />
+        <ec-chart />
       </view>
     </view>
   </view>

@@ -1,7 +1,9 @@
 <!--feature/index/menu/index.wxml-->
 <view class="index-menu">
-  <view class="menu-item" wx:for='{{5}}' wx:key='item'>
-    <image class="menu-icon" mode="widthFix" src="/static/Icon/menu.png"></image>
-    <text class="menu-text">Icon</text>
+  <view class="menu-item" wx:for='{{menu_list}}' wx:key='item'>
+    <view class="menu-icon" style="background-color:{{item.color}};">
+      <image class="before" src="/static/Icon/{{item.icon}}"></image>
+    </view>
+    <text class="menu-text">{{item.name}}</text>
   </view>
 </view>

@@ -2,7 +2,8 @@
   "usingComponents": {
     "header-component":"/feature/index/header",
     "swiper-component":"/feature/index/swiper",
-    "menu-component":"/feature/index/menu"
+    "menu-component":"/feature/index/menu",
+    "ec-chart":"/feature/index/chart"
   },
   "navigationStyle":"custom"
 }
