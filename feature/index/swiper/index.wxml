@@ -1,10 +1,11 @@
 <!--feature/index/swiper/index.wxml-->
 
-  <view class="swiper">
-    <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}" circular="{{true}}" vertical="{{false}}">
+  <view>
+    <swiper class="swiper" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}" circular="{{true}}" vertical="{{false}}">
       <block wx:for="{{banner}}" wx:key="*this">
-        <swiper-item>
-          <view class="swiper-item">
+        <swiper-item class="swiper-item">
+          <view data-item="{{item}}" bindtap="goView">
+            <image mode="aspectFill" src="{{item.thumbnail_pic_s}}"></image>
           </view>
         </swiper-item>
       </block>

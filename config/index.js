@@ -1,5 +1,5 @@
 const config={
     debug:true,
-    baseUrl:'',
+    baseUrl:'https://v.juhe.cn',
 }
 export default config;

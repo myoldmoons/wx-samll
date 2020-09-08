@@ -12,12 +12,9 @@
   background: linear-gradient(#2894FF,#ffffff);
 }
 .content{
-  padding:20rpx;
-  position: absolute;
-  width: 100%;
-  top: 0;
+  padding:20rpx 20rpx 0 20rpx;
+  position: relative;
   box-sizing: border-box;
-  left: 0;
   z-index: 2;
 }
 .content-box{

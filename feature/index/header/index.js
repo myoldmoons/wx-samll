@@ -36,5 +36,10 @@ Component({
         header_right: getMenuButtonRect().width + 20
       })
     },
+    goSearch(){
+      wx.navigateTo({
+        url: '/pages/search/index',
+      })
+    }
   }
 })

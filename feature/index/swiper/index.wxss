@@ -1,11 +1,15 @@
 /* feature/index/swiper/index.wxss */
-swiper{
+.swiper{
   margin-bottom: 20rpx;
-  height:200rpx;
+  height:220rpx;
   border-radius: 20rpx;
   overflow: hidden;
 }
-swiper-item{
-  background-color: #EEE8AA;
+.swiper-item{
+  border-radius: 20rpx;
+  overflow: hidden;
   font-size: 28rpx;
+}
+.swiper-item image{
+  width: 100%;
 }

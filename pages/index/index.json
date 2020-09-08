@@ -3,7 +3,8 @@
     "header-component":"/feature/index/header",
     "swiper-component":"/feature/index/swiper",
     "menu-component":"/feature/index/menu",
-    "ec-chart":"/feature/index/chart"
+    "news-list":"/feature/index/newsList"
   },
-  "navigationStyle":"custom"
+  "navigationStyle":"custom",
+  "enablePullDownRefresh": true
 }

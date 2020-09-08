@@ -9,8 +9,8 @@
           <menu-component />
         </view>
         <swiper-component banner='{{banner}}' />
-        <ec-chart />
       </view>
+      <news-list column_1_data="{{column_1_data}}" column_2_data="{{column_2_data}}" />
     </view>
   </view>
 </page-meta>

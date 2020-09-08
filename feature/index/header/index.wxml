@@ -1,7 +1,7 @@
 <view class="tabbar" style="padding-top:{{header_top}}px;height:{{header_height}}px;line-height:{{header_height}}px;">
   <view class="header" style="padding-right:{{header_right}}px;">
     <view class="weather">郑州</view>
-    <view class="search">
+    <view class="search" bindtap="goSearch">
       <image class="search_icon" src="/static/Icon/search.jpg"></image>
       <view class="input">
         <text>search info</text>

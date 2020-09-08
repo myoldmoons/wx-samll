@@ -21,6 +21,11 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    goView(e){
+      let item=e.currentTarget.dataset.item;
+      wx.navigateTo({
+        url: '/pages/newsDetail/index?item='+JSON.stringify(item),
+      })
+    }
   }
 })

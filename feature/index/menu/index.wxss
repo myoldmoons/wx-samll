@@ -24,5 +24,6 @@
   transform: translate(-50%,-50%);
 }
 .menu-text{
-  font-size: 32rpx;
+  font-size: 30rpx;
+  color: #444;
 }

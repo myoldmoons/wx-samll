@@ -1,8 +1,9 @@
-import config from '../config'
+import config from '../config/index';
+console.log(config)
 const fetch =(url,method,params)=>{
   return new Promise((resolve,reject)=>{
     wx.request({
-      url: config.url+url,
+      url: config.baseUrl+url,
       method:method==='get'?'GET':'POST',
       data: params,
       header: {

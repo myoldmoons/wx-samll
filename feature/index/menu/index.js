@@ -26,7 +26,7 @@ Component({
       },
       {
         name:'Joke',
-        color:'#00FF00',
+        color:'#F0E68C',
         route:'',
         icon:'menu_joke.jpg'
       },
@@ -40,7 +40,7 @@ Component({
         name:'History',
         color:'#FF8C00',
         route:'',
-        icon:'menu_History.jpg'
+        icon:'menu_history.jpg'
       },
     ]
   },
